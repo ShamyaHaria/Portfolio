@@ -1,0 +1,42 @@
+#cursor {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 22px;
+  height: 22px;
+  border: none;
+  pointer-events: none;
+  border-radius: 50%;
+  z-index: 60;
+  transition: width 0.225s, height 0.225s, background-color 0.225s;
+}
+
+#cursor::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.light-cursor {
+  background-color: rgba(0, 0, 0, 0.175);
+}
+
+.dark-cursor {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.click {
+  width: 19px !important;
+  height: 19px !important;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.disappear {
+  background-color: transparent !important;
+}
