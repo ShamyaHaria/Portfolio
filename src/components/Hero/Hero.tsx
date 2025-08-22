@@ -73,7 +73,7 @@ export default function Hero() {
       >
         {state.language === "english" ? (
           <>
-            I am <span ref={typedRef}></span> Developer
+            I am <span ref={typedRef}></span>Developer
           </>
         ) : (
           "App & Web Developer"
@@ -91,8 +91,8 @@ export default function Hero() {
         }}
       >
         {state.language === "english"
-          ? "inquisitive individual, constantly seeking out new and innovative practices to refine my skills and build cool stuff."
-          : "inquisitive individual, constantly seeking out new and innovative practices to refine my skills and build cool stuff."}
+          ? "Focused on building intelligent systems that harness artificial intelligence to solve complex, impactful issues."
+          : "Focused on building intelligent systems that harness artificial intelligence to solve complex, impactful issues."}
       </motion.h4>
 
       <motion.button

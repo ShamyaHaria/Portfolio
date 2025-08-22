@@ -12,8 +12,8 @@ export default function Skills() {
       <h3 className={`eyebrow ${state.darkmode ? "dark-eyebrow" : "light-eyebrow"}`}>Skills</h3>
       <h1 className={`heading ${state.darkmode ? "dark-heading" : "light-heading"}`}>
         {state.language === "english"
-          ? "Everything I use to turn my ideas into reality."
-          : "Everything I use to turn my ideas into reality."}
+          ? "The Forces behind turning Ideas into Solid Outcomes."
+          : "The Forces behind turning Ideas into Solid Outcomes"}
       </h1>
 
       <div className="skill-grid">

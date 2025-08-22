@@ -10,8 +10,8 @@ export default function IntroCards () {
   return (
     <div className="container-intro">
       <section className={`left-intro big-card ${state.darkmode ? "dark-card" : "light-card"}`}>
-        <h3 className={`${state.darkmode ? "dark-heading" : "light-heading"}`}>{ "React developer at the intersection between design and code"}</h3>
-        <p className={`${state.darkmode ? "dark-eyebrow" : "light-eyebrow"}`}>{"Starting with HTML, CSS and JavaScript, I taught myself programming on my own. However, nowadays there is a lot to discover far beyond vanilla JavaScript: Today I work with TypeScript in React, use Redux or Context for state management and use SASS as a pre-processor for CSS. As you can see, I also like to work with motion libraries - e.g. Framer Motion."}</p>
+        <h3 className={`${state.darkmode ? "dark-heading" : "light-heading"}`}>{ "Developer working at the intersection of Design and Technology"}</h3>
+        <p className={`${state.darkmode ? "dark-eyebrow" : "light-eyebrow"}`}>{"Starting with HTML, CSS, and JavaScript, I taught myself programming on my own. Over time, my curiosity led me to explore, analyze, and interpret complex data to identify patterns and drive informed decision-making. This naturally progressed into designing systems that can learn from data, recognize trends, and adapt to new information to solve challenging problems in innovative ways."}</p>
       </section>
 
       <section className="right-intro" ref={scrollRef}>
@@ -24,7 +24,7 @@ export default function IntroCards () {
                 <h2 className="num green">100</h2>
                 <h2 className="sign green-sign">+</h2>
             </div>
-            <h4 className={`${state.darkmode ? "dark-eyebrow" : "light-eyebrow"}`}>Leetcode Solutions</h4>
+            <h4 className={`${state.darkmode ? "dark-eyebrow" : "light-eyebrow"}`}>Hours of Coding Practice</h4>
         </motion.div>
 
         <motion.div className={`small-card ${state.darkmode ? "dark-card" : "light-card"}`}
