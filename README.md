@@ -50,8 +50,7 @@ To run this website locally:
 
 ## Deployment
 
-The website is deployed and hosted on Vercel at:  
-[shamyaharia.vercel.app](https://shamyaharia.vercel.app/)
+Checkout my website on [shamyaharia.vercel.app](https://shamyaharia.vercel.app/)
 
 ## License
 
