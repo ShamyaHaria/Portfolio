@@ -24,30 +24,6 @@ Welcome to my personal portfolio website! This is a modern, responsive, and inte
 
 ***
 
-## Getting Started
-
-To run this website locally:
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/ShamyaHaria/Portfolio.git
-   ```
-
-2. Navigate to the project directory and install dependencies:  
-   ```bash
-   cd <your-portfolio>
-   npm install
-   ```
-
-3. Start the development server:  
-   ```bash
-   npm start
-   ```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the site.
-
-***
-
 ## Deployment
 
 Checkout my website on [shamyaharia.vercel.app](https://shamyaharia.vercel.app/)
